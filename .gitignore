@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+main
+# TODO: put your project's name here to ignore executable builds for it.
+*.exe
+*.exe~
+*.so
+*.dylib
+*.dll
+
+# Ignore binary output folders
+bin/
+
+# Ignore common editor/system specific metadata
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# ENV
+.env
+
+# vweb and database
+*.db
+*.js
+
+# Local V install
+/v/
+
+# Local Clockwork install
+/clockwork/
